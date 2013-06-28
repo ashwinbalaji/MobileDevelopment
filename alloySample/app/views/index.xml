@@ -1,0 +1,44 @@
+<!--<Alloy>
+
+	<Window id="win1" class="container">
+		
+		 <TextField id="firstNameTxt" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="firstNameTxt"/>
+		 
+		
+		 <TextField id="lastNameTxt" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="lastNameTxt"/>
+	
+        <TextArea id="textArea" class="addressTxt" />
+		 
+		 <Button id="What_Happened" onClick="popUp" title="submit" class="btn"></Button>
+	 </Window>
+
+</Alloy>
+    <Alloy>
+        <TabGroup id="tabgroup" backgroundColor="white" >
+            <Tab id="tab1" title="Tab 1" icon="KS_nav_views.png">
+                <Window id="win1" title="Tab 1">
+                 <TextField id="firstNameTxt" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="firstNameTxt"/>
+                 <TextField id="lastNameTxt" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="lastNameTxt"/>
+                 <TextArea id="textArea" class="addressTxt" />
+                 <Button id="What_Happened" onClick="popUp" title="submit" class="btn"></Button>
+                </Window>
+            </Tab>
+            <Tab id="tab2" title="Tab 2" icon="KS_nav_views.png">
+                <Window id="win2" title="Tab 2">
+                    <Label id="label2" color="#999">I am Window 2</Label>
+                </Window>
+            </Tab>
+            <!-- Use the Require tag to include external Ti.UI.Tab views -->
+         <!--   </TabGroup>
+    </Alloy>-->
+<Alloy>
+	<Window id="win1"  class="container">
+                 <TextField id="firstNameTxt" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="firstNameTxt"/>
+                 <TextField id="lastNameTxt" borderStyle="Ti.UI.INPUT_BORDERSTYLE_ROUNDED" class="lastNameTxt"/>
+                 <TextArea id="textArea" class="addressTxt" />
+                 <Button id="What_Happened" onClick="popUp" title="submit" class="btn"></Button>
+     </Window>
+     	<Window id="win2"  class="container">
+                 <Label id="label2" color="#999">I am Window 2</Label>
+     </Window>
+</Alloy>

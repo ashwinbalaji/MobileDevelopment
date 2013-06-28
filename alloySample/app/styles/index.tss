@@ -1,0 +1,12 @@
+/*".container": { backgroundColor:"#F7F3F7", backgroundImage:'../Resources/android/images/img/bg_main.png' },*/
+
+".container": { backgroundColor:"#F7F3F7" },
+
+
+".firstNameTxt":{color:"#336699", top:"10dp", left:"10", width:"440", height:"70", hintText:'First Name'},
+
+".lastNameTxt":{color:"#336699", top:"80", left:"10", width:"440", height:"70",hintText:'Last Name'},
+
+".addressTxt":{ borderWidth:"2", borderColor:"#bbb", borderRadius:"5", color:"#888", textAlign:"left", top:"150", width:"440", height:"70",left:"10",hintText:'Address' },
+
+".btn":{width: Ti.UI.SIZE,height: Ti.UI.SIZE,	color: "#000",  borderRadius:"5"}
